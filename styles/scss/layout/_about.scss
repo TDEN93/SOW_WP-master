@@ -1,0 +1,58 @@
+
+/* ABout Page */
+
+.contentRow {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 90%;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
+.band-image img{
+  display: none;
+}
+
+
+@media only screen and (min-width: 992px) {
+  .aboutContent > div  {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 22px;
+    line-height: 1.6;
+    padding: 20px;
+    
+  }
+  
+  .aboutContainer {
+    margin: 0 auto;
+    
+  }
+  .contentRow {
+    width: 70%
+  }
+  
+  .bandContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .band-image{
+    
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    &:first-child {
+      margin-top: 35px;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+
+}

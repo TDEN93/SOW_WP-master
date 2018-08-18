@@ -1,0 +1,83 @@
+.upcomingShows {
+  text-align: center;
+  margin-top: 50px;
+  padding: 0 !important;
+  img {
+    width: 100%;
+  }
+}
+.albumReleaseContainer {
+  text-align: center;
+  margin-top: 20px;
+  img {
+    width: 100%;
+  }
+}
+
+.storeCont {
+  margin-top: 50px;
+}
+
+.tourCont {
+  margin-top: 50px;
+}
+
+/* IMAGES */
+.bandPic {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  bottom: -2%;
+  z-index: 1;
+}
+
+.flyerImg {
+  width: 100%;
+}
+.albumCover {
+  width: 100%;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+  .bandPic {
+    width: 800px;
+    height: auto;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1;
+  }
+    .upcomingShows {
+    display: none;
+  }
+  .albumReleaseContainer {
+    display: none;
+  }
+
+  .callButton {
+    margin-left: 10px;
+    background-color: transparent !important;
+    border-color: green;
+    color: #111;
+  }
+  .sub {
+    position: absolute;
+    height: 50px;
+    background-color: rgba(0, 0, 0, .7);
+    left: 10px;
+    bottom: 10px;
+    margin-top: 150px;
+    height: 50px;
+    line-height: 50px;
+    // background-color: rgba(0, 0, 0, .2);
+    .subText {
+      color: #fff !important;
+      text-align: center;
+      vertical-align: baseline;
+    }
+  }
+
+}
