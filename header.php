@@ -18,7 +18,7 @@
 
 
   <!-- NAVIGATION -->
-
+ 
   <div class="bandLogo d-block text-center w-100">
     <a href="<?php echo site_url() ?>">
         <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="sowLogo" width="300" height="300">
@@ -47,7 +47,7 @@
                   <a class="nav-link" href="<?php echo site_url('/tour-dates') ?>">Tour Dates</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="<?php echo site_url('/store') ?>">Store / Tickets</a>
+                  <a class="nav-link" href="https://shadowofwhales.bigcartel.com/" target="_blank">Store / Tickets</a>
               </li>
           </ul>
         </div>
@@ -91,7 +91,7 @@
   
 </ul>
 
-<?php echo do_shortcode('[wp_compact_cart]'); ?>
+
     
 
   

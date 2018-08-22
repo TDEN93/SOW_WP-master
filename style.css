@@ -9,6 +9,7 @@
     margin-bottom: 20px;
 }
 
+
 .thumbnail img {
     width: 100%;
 }
@@ -594,3 +595,13 @@ ol {
   overflow: hidden; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.product-container {
+  width: 500px;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+
+}
