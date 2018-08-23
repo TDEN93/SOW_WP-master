@@ -47,7 +47,7 @@
                   <a class="nav-link" href="<?php echo site_url('/tour-dates') ?>">Tour Dates</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="https://shadowofwhales.bigcartel.com/" target="_blank">Store / Tickets</a>
+                  <a class="nav-link" href="<?php echo site_url('/store') ?>" target="_blank">Store / Tickets</a>
               </li>
           </ul>
         </div>
