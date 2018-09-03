@@ -1,83 +1,161 @@
-.upcomingShows {
-  text-align: center;
-  margin-top: 50px;
-  padding: 0 !important;
-  img {
-    width: 100%;
-  }
-}
-.albumReleaseContainer {
-  text-align: center;
-  margin-top: 20px;
-  img {
-    width: 100%;
-  }
-}
+// .upcomingShows {
+//   text-align: center;
+//   margin-top: 50px;
+//   padding: 0 !important;
+//   img {
+//     width: 100%;
+//   }
+// }
+// .albumReleaseContainer {
+//   text-align: center;
+//   margin-top: 20px;
+//   img {
+//     width: 100%;
+//   }
+// }
 
-.storeCont {
-  margin-top: 50px;
-}
+// .storeCont {
+//   margin-top: 50px;
+// }
 
-.tourCont {
-  margin-top: 50px;
-}
+// .tourCont {
+//   margin-top: 50px;
+// }
 
-/* IMAGES */
-.bandPic {
-  display: block;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  bottom: -2%;
-  z-index: 1;
-}
+// /* IMAGES */
+// .bandPic {
+//   display: block;
+//   width: 100%;
+//   height: auto;
+//   position: fixed;
+//   bottom: -2%;
+//   z-index: 1;
+// }
 
-.flyerImg {
-  width: 100%;
-}
-.albumCover {
-  width: 100%;
-}
+// .flyerImg {
+//   width: 100%;
+// }
+// .albumCover {
+//   width: 100%;
+// }
+
+// .front-mark {
+//   position: absolute;
+//   top: 75%;
+//   left: 25%;
+// }
 
 
 
-@media only screen and (min-width: 992px) {
-  .bandPic {
-    width: 800px;
-    height: auto;
-    position: fixed;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    z-index: 1;
-  }
-    .upcomingShows {
-    display: none;
-  }
-  .albumReleaseContainer {
-    display: none;
-  }
+// @media only screen and (min-width: 992px) {
+//   .bandPic {
+//     width: 800px;
+//     height: auto;
+//     position: fixed;
+//     left: 50%;
+//     transform: translate(-50%, 0%);
+//     z-index: 1;
+//   }
+//     .upcomingShows {
+//     display: none;
+//   }
+//   .albumReleaseContainer {
+//     display: none;
+//   }
 
-  .callButton {
-    margin-left: 10px;
-    background-color: transparent !important;
-    border-color: green;
-    color: #111;
-  }
-  .sub {
-    position: absolute;
-    height: 50px;
-    background-color: rgba(0, 0, 0, .7);
-    left: 10px;
-    bottom: 10px;
-    margin-top: 150px;
-    height: 50px;
-    line-height: 50px;
-    // background-color: rgba(0, 0, 0, .2);
-    .subText {
-      color: #fff !important;
-      text-align: center;
-      vertical-align: baseline;
+//   .callButton {
+//     margin-left: 10px;
+//     background-color: transparent !important;
+//     border-color: green;
+//     color: #111;
+//   }
+//   .sub {
+//     position: absolute;
+//     height: 50px;
+//     background-color: rgba(0, 0, 0, .7);
+//     left: 10px;
+//     bottom: 10px;
+//     margin-top: 150px;
+//     height: 50px;
+//     line-height: 50px;
+//     // background-color: rgba(0, 0, 0, .2);
+//     .subText {
+//       color: #fff !important;
+//       text-align: center;
+//       vertical-align: baseline;
+//     }
+//   }
+
+// }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .front-mark {
+    // font-family: deftone_stylusregular;
+    font-size: 1.2rem;
+    text-align: center;
+    span {
+      border: 2px solid black;
+      padding: 5px 10px;
     }
   }
-
+  .markBanner {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2a987+0,efb1ed+16,a3cecd+34,a3cecd+59,efb1ed+80,f2a987+100 */
+    background: #f2a987; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #f2a987 0%, #efb1ed 16%, #a3cecd 34%, #a3cecd 59%, #efb1ed 80%, #f2a987 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #f2a987 0%,#efb1ed 16%,#a3cecd 34%,#a3cecd 59%,#efb1ed 80%,#f2a987 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #f2a987 0%,#efb1ed 16%,#a3cecd 34%,#a3cecd 59%,#efb1ed 80%,#f2a987 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2a987', endColorstr='#f2a987',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    span {
+      border: 2px solid black;
+      padding: 5px 10px;
+    }
+    p {
+      line-height: 50px;
+    }
+  }
 }
+  
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+
+  /* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  }

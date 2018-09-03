@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'deftone_stylusregular';
+  src: url('fonts/deftone-webfont.woff2') format('woff2'),
+       url('fonts/deftone-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +16,12 @@ body {
   height: 100%;
   background-color: #ffffff !important;
   background-image: url("./img/bg2.png") !important;
+
+  background-attachment: fixed;
+  background-size: cover;
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
+
 
 
 .body-banner:before {

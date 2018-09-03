@@ -1,117 +1,139 @@
 /* NAVIGATION */
-.navbar-nav a {
-  color: #333;
-}
-.navbar-collapse {
-  text-align: center;
-}
+// .navbar-nav a {
+//   color: #fff;
+// }
+// .navbar-nav {
+//   background-color: white;
+//   height: 100vh;
+//   margin-top: 10px;
+// }
+// .navbar-collapse {
+//   text-align: center;
+// }
 
-.navbar-collapse ul li {
-  font-size: 20px;
-}
+// .navbar-collapse ul li {
+//   font-size: 20px;
+// }
 
-.bandLogo {
-  display: none !important;
-}
-.navbar-toggler {
-  padding: 0 !important;
-  width: 2.5em !important;
-  height: 2.5em !important;
+// .bandLogo {
+//   position: absolute;
+//   top: 20%;
+//   img {
+//     width: 350px !important;
+//     height: auto !important;
+//   }
   
-}
-.navbar-toggler-icon {
-  width: 2.5em !important;
-  height: 2.5em !important;
+
+ 
+// }
+// .navbar-toggler {
+//   padding: 0 !important;
+//   // width: 2.5em !important;
+//   // height: 2.5em !important;
+  
+// }
+// .navbar-toggler-icon {
+//   // width: 2.5em !important;
+//   // height: 2.5em !important;
+//   color: black;
   
  
-}
-@media (min-width: 768px) {
-  .navbar-brand.abs
-      {
-          position: absolute;
-          width: 100%;
-          left: 0;
-          text-align: center;
-      }
-  }
+// }
 
-@media only screen and (min-width: 992px) {
-  nav {
-    margin-top: -70px;
-  }
-  .bandLogo {
-    display: block !important;
-    margin: -50px auto 0 auto;
-  }
-  .navbar-collapse ul li {
-    font-size: 18px;
-    margin: 0 40px;
-  }
+// @media (max-width: 400px){
+//   .navbar-nav a {
+//     color: #000;
+//   }
+// }
+
+// @media (min-width: 768px) {
+//   .navbar-brand.abs
+//       {
+//           position: absolute;
+//           width: 100%;
+//           left: 0;
+//           text-align: center;
+//       }
+//   }
+
+// @media only screen and (min-width: 992px) {
+//   nav {
+//     position: absolute;
+//     z-index: 2;
+//     top: 700px;
+//   }
+//   .bandLogo {
+//     display: block !important;
+//     // margin: -50px auto 0 auto;
+//   }
+//   .navbar-collapse ul li {
+//     font-size: 18px;
+//     margin: 0 40px;
+//   }
   
 
+// }
+
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .bandLogo {
+    img {
+      width: 350px;
+      height: auto;
+      display: block;
+      margin: 100px auto 0 auto;
+    }
+  }
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
+  
+  /* Smartphones (landscape) ----------- */
+  @media only screen and (min-width : 321px) {
+  /* Styles */
+  }
+  
+  /* Smartphones (portrait) ----------- */
+  @media only screen and (max-width : 320px) {
+  /* Styles */
+  }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+  }
+  
+  /* iPads (landscape) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  /* Styles */
+  }
+  
+  /* iPads (portrait) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  /* Styles */
+  }
+
+  /* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  /* Styles */
+  }
+  
+  /* Large screens ----------- */
+  @media only screen  and (min-width : 1824px) {
+  /* Styles */
+  }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// nav {
-//   width: 100%;
-//   margin-top: -50px;
-// }
-
-
-// /* NAV LEFT */
-// .navLeft {
-//   float: left;
-//   margin-top: 140px;
-// }
-
-// .navLeft li {
-//   display: inline;
-// }
-// .navLeft li a {
-//   text-decoration: none;
-//   color: #111;
-//   padding-left: 60px;
-//   font-size: 24px;
-// }
-
-// /* NAV RIGHT */
-// .navRight {
-//   float: right;
-//   margin-top: -160px;
-//   margin-right: 300px;
-// }
-// .navRight li {
-//   display: inline;
-// }
-// .navRight li a {
-//   text-decoration: none;
-//   color: #111;
-//   padding-right: 60px;
-//   font-size: 24px;
-// }
-// .navBrand {
-//   height: 300px;
-//   width: 300px;
-//   margin: 0 auto;
-//   z-index: 999;
-// }
+  /* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  }
+  

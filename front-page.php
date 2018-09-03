@@ -46,7 +46,17 @@
 
 
 
-<img class="bandPic mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/press1.jpg" alt="bandPic">
+<!-- <img class="bandPic mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/press1.jpg" alt="bandPic"> -->
+
+<!--  Home Page Content / Video -->
+
+
+
+  <div class="video-background">
+    <div class="video-foreground">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/shmMepU64H4?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
 
 
 <?php get_footer(); ?>

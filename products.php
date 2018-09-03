@@ -4,7 +4,7 @@ use Printful\Exceptions\PrintfulException;
 use Printful\PrintfulApiClient;
 require_once __DIR__ . '../vendor/autoload.php';
 // Replace this with your API key
-$apiKey = '';
+$apiKey = '15vxx783-rfpv-nmk3:hdzo-z7xpysgfj9ij';
 $pf = new PrintfulApiClient($apiKey);
 try {
     // Get information about the store
@@ -23,13 +23,18 @@ try {
     // var_export($variants);
     
     // Get information about Variant 1007
-    /*
-    $data = $pf->get('products/variant/1007');
+    
+    // $data = $pf->get('products/variant/71');
+    // var_export($data);
+
+    $data = $pf->get('warehouse/products');
     var_export($data);
-    */
+    
 } catch (PrintfulApiException $e) { //API response status code was not successful
     echo 'Printful API Exception: ' . $e->getCode() . ' ' . $e->getMessage();
 } catch (PrintfulException $e) { //API call failed
     echo 'Printful Exception: ' . $e->getMessage();
     var_export($pf->getLastResponseRaw());
 }
+
+

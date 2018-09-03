@@ -8,22 +8,11 @@
   <?php wp_head(); ?>
 </head>
 <body>
-    <div class="banner-container body-banner">
     
-    </div>
-    <div class="bannerText">
-        <a id="bannerText" href="https://open.spotify.com/artist/53vrAdxV1ZNqoWbHKbZ1dr" target="_blank">New Album!</a>
-    </div>
-
-
-
   <!-- NAVIGATION -->
  
-  <div class="bandLogo d-block text-center w-100">
-    <a href="<?php echo site_url() ?>">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="sowLogo" width="300" height="300">
-    </a>
-  </div>
+  
+  
 
   <nav class="navbar navbar-expand-md justify-content-between  ">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
@@ -47,18 +36,16 @@
                   <a class="nav-link" href="<?php echo site_url('/tour-dates') ?>">Tour Dates</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="<?php echo site_url('/store') ?>" target="_blank">Store / Tickets</a>
+                  <a class="nav-link" href="https://shadowofwhales.bigcartel.com/" target="_blank">Store / Tickets</a>
               </li>
           </ul>
         </div>
 </nav>
 
+
+
+
   <ul class='social'>
-    <!-- <li id="mailingList">
-        <a href="https://www.facebook.com/shadowofwhales" target="_blank"><i class="far fa-envelope-open"></i>
-        <span>Follow Us!</span>
-        </a> 
-    </li> -->
     <li>
         <a href="https://www.facebook.com/shadowofwhales" target="_blank"><i class="fab fa-facebook"></i>
         <span>Follow Us!</span>
@@ -91,6 +78,19 @@
   
 </ul>
 
+<div class="contentContainer">
+    <div class="bandLogo d-block text-center w-100">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/sowLogo_black.png" alt="sowLogo">
+    </div>
+
+    <div class="markBanner">
+        <p><span>Buy Now!</span>Swiggity Swooty is out now!</p>
+    </div>
+
+    <div class="front-mark">
+        <p> <span>Watch</span> Swiggity Swooty </p>
+    </div>
+</div>
 
     
 
