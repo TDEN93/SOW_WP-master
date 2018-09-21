@@ -14,7 +14,7 @@ class PrintfulApiClient
      * Printful API key
      * @var string
      */
-    private $key = '';
+    private $key = '15vxx783-rfpv-nmk3:hdzo-z7xpysgfj9ij';
 
     private $lastResponseRaw;
 

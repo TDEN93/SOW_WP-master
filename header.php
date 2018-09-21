@@ -78,19 +78,7 @@
   
 </ul>
 
-<div class="contentContainer">
-    <div class="bandLogo d-block text-center w-100">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/sowLogo_black.png" alt="sowLogo">
-    </div>
 
-    <div class="markBanner">
-        <p><span>Buy Now!</span>Swiggity Swooty is out now!</p>
-    </div>
-
-    <div class="front-mark">
-        <p> <span>Watch</span> Swiggity Swooty </p>
-    </div>
-</div>
 
     
 

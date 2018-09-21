@@ -1,4 +1,5 @@
 /* NAVIGATION */
+
 // .navbar-nav a {
 //   color: #fff;
 // }
@@ -10,11 +11,9 @@
 // .navbar-collapse {
 //   text-align: center;
 // }
-
 // .navbar-collapse ul li {
 //   font-size: 20px;
 // }
-
 // .bandLogo {
 //   position: absolute;
 //   top: 20%;
@@ -22,30 +21,22 @@
 //     width: 350px !important;
 //     height: auto !important;
 //   }
-  
-
- 
 // }
 // .navbar-toggler {
 //   padding: 0 !important;
 //   // width: 2.5em !important;
 //   // height: 2.5em !important;
-  
 // }
 // .navbar-toggler-icon {
 //   // width: 2.5em !important;
 //   // height: 2.5em !important;
 //   color: black;
-  
- 
 // }
-
 // @media (max-width: 400px){
 //   .navbar-nav a {
 //     color: #000;
 //   }
 // }
-
 // @media (min-width: 768px) {
 //   .navbar-brand.abs
 //       {
@@ -55,7 +46,6 @@
 //           text-align: center;
 //       }
 //   }
-
 // @media only screen and (min-width: 992px) {
 //   nav {
 //     position: absolute;
@@ -70,70 +60,158 @@
 //     font-size: 18px;
 //     margin: 0 40px;
 //   }
-  
-
 // }
-
-
-
-
-
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .bandLogo {
+.bandLogo {
     img {
-      width: 350px;
-      height: auto;
-      display: block;
-      margin: 100px auto 0 auto;
+        width: 225px;
+        height: auto;
+        display: block;
+        margin: 50px auto 100px auto;
     }
-  }
-  .navbar {
+}
+
+.bandLogoW {
+    img {
+        width: 400px;
+        height: auto;
+        display: block;
+        margin: 70px auto 100px auto;
+    }
+}
+
+.navbar {
     position: absolute;
     top: 0;
     left: 0;
-  }
+    padding: 0;
 }
-  
-  /* Smartphones (landscape) ----------- */
-  @media only screen and (min-width : 321px) {
-  /* Styles */
-  }
-  
-  /* Smartphones (portrait) ----------- */
-  @media only screen and (max-width : 320px) {
-  /* Styles */
-  }
-  
-  /* iPads (portrait and landscape) ----------- */
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  /* Styles */
-  }
-  
-  /* iPads (landscape) ----------- */
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-  /* Styles */
-  }
-  
-  /* iPads (portrait) ----------- */
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-  /* Styles */
-  }
 
-  /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-  /* Styles */
-  }
-  
-  /* Large screens ----------- */
-  @media only screen  and (min-width : 1824px) {
-  /* Styles */
-  }
+.navbar-toggler {
+    padding: 0 !important;
+    margin: 10px 0 0 10px;
+}
 
+.navbar-collapse {
+    margin-top: 10px;
+}
 
-  /* iPhone 6+ ----------- */
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-  /* Styles */
-  }
-  
+.navbar-nav {
+    width: 100vw;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .7);
+    .nav-item {
+        margin: 10px 0 10px 0;
+        a {
+            color: #fff;
+        }
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Styles */
+    .bandLogo {
+        display: none !important;
+    }
+    .bandLogoW {
+        display: block;
+        position: absolute;
+        top: 5%;
+    }
+    .navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .navbar-toggler {
+        padding: 0 !important;
+        margin: 10px 0 0 10px;
+    }
+    .navbar-collapse {
+        margin-top: 10px;
+    }
+    .navbar-nav {
+        width: 100vw;
+        text-align: center;
+        background-color: transparent;
+        justify-content: center;
+        .nav-item {
+            margin: 10px;
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+    /* Styles */
+    .bandLogo {
+        display: none !important;
+        z-index: -1;
+    }
+    .bandLogoW {
+        display: block;
+        position: absolute;
+        top: 5%;
+        left: 40%;
+        z-index: -1;
+        
+    }
+    .navbar {
+        position: absolute;
+        top: 55%;
+        left: 0;
+        padding: 0;
+        text-align: center;
+        z-index: 1;
+    }
+    .navbar-toggler {
+        padding: 0 !important;
+        margin: 10px 0 0 10px;
+    }
+    .navbar-collapse {
+        margin-top: 10px;
+    }
+    .navbar-nav {
+        width: 100vw;
+        text-align: center;
+        background-color: transparent;
+        justify-content: center;
+        .nav-item {
+            margin: 10px;
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1824px) {
+    /* Styles */
+}
+
+/* iPhone 6+ ----------- */
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+}
