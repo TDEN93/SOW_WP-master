@@ -12,7 +12,7 @@
 
 body {
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -63,7 +63,7 @@ body {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Styles */
   body {
-    background: none;
+    background: #333;
   }
 
   .video-background {
@@ -71,7 +71,12 @@ body {
   }
 }
 /* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1024px) {
+  body {
+    background: none;
+    background-color: #333;
+  }
+
   .video-background {
     display: block;
   }
@@ -93,7 +98,7 @@ body {
 }
 
 .bandLogoW img {
-  width: 400px;
+  width: 600px;
   height: auto;
   display: block;
   margin: 70px auto 100px auto;
@@ -109,6 +114,7 @@ body {
 .navbar-toggler {
   padding: 0 !important;
   margin: 10px 0 0 10px;
+  color: #fff;
 }
 
 .navbar-collapse {
@@ -136,13 +142,14 @@ body {
 
   .bandLogoW {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 5%;
+    left: 25%;
   }
 
   .navbar {
     position: absolute;
-    top: 0;
+    top: 5%;
     left: 0;
     padding: 0;
     text-align: center;
@@ -179,7 +186,7 @@ body {
   /* Styles */
 }
 /* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1024px) {
   /* Styles */
   .bandLogo {
     display: none !important;
@@ -189,14 +196,14 @@ body {
   .bandLogoW {
     display: block;
     position: absolute;
-    top: 5%;
-    left: 40%;
+    top: 2%;
+    left: 35%;
     z-index: -1;
   }
 
   .navbar {
     position: absolute;
-    top: 55%;
+    top: 5%;
     left: 0;
     padding: 0;
     text-align: center;
@@ -297,7 +304,7 @@ body {
     position: absolute;
     width: 100%;
     top: 70%;
-    left: 15%;
+    left: 20%;
   }
   .front-mark span {
     border: 2px solid white;
@@ -309,7 +316,7 @@ body {
     height: 50px;
     position: absolute;
     top: 70%;
-    right: 15%;
+    right: 20%;
     text-align: center;
     margin-bottom: 30px;
     font-size: 1.2rem;
@@ -329,7 +336,7 @@ body {
   }
 }
 /* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1028px) {
   /* Styles */
   .front-mark {
     background-color: transparent;
@@ -395,13 +402,58 @@ body {
   display: none;
 }
 
-@media only screen and (min-width: 992px) {
-  .aboutContent > div {
+.aboutContent {
+  color: #000;
+  background-color: #fff;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .aboutContent {
     text-align: justify;
     text-justify: inter-word;
-    font-size: 22px;
-    line-height: 1.6;
+    font-size: 20px;
+    line-height: 1.7;
     padding: 20px;
+    color: #000;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
+  .aboutContent {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    line-height: 1.7;
+    padding: 20px;
+    color: #000;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .contentRow {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 2;
+  }
+
+  .aboutContent {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    line-height: 1.7;
+    padding: 20px;
+    color: #fff;
+    margin-top: 20px;
+    background-color: #333;
   }
 
   .aboutContainer {
@@ -409,7 +461,7 @@ body {
   }
 
   .contentRow {
-    width: 70%;
+    width: 95%;
   }
 
   .bandContainer {
@@ -430,6 +482,95 @@ body {
     max-width: 100%;
     height: auto;
   }
+}
+@media only screen and (min-width: 1024px) {
+  .contentRow {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 2;
+  }
+
+  .aboutContent {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    line-height: 1.7;
+    padding: 20px;
+    color: #fff;
+    margin-top: 20px;
+    background-color: #333;
+  }
+
+  .aboutContainer {
+    margin: 50px auto 0 auto;
+  }
+
+  .contentRow {
+    width: 95%;
+  }
+
+  .bandContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .band-image {
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+  }
+  .band-image:first-child {
+    margin-top: 45px;
+  }
+  .band-image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+.tourCont {
+  margin-top: 100px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+/* Smartphones (landscape) ----------- */
+/* Smartphones (portrait) ----------- */
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .tourCont {
+    margin-top: 100px;
+  }
+
+  tr {
+    display: flex;
+    align-content: center;
+  }
+  tr .tourVenue {
+    flex-grow: 1;
+    margin-left: 50px;
+  }
+  tr .ticketBTN {
+    margin-left: 50px;
+  }
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) {
+  .tourCont {
+    margin-top: 100px;
+  }
+}
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
 }
 @media only screen and (min-width: 992px) {
   tr {
@@ -844,7 +985,7 @@ ol li span:first-child:before {
 }
 
 .videoContainer {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .video-background {

@@ -145,7 +145,7 @@
         position: absolute;
         width: 100%;
         top: 70%;
-        left: 15%;
+        left: 20%;
         span {
             border: 2px solid white;
             padding: 5px 10px;
@@ -156,7 +156,7 @@
         height: 50px;
         position: absolute;
         top: 70%;
-        right: 15%;
+        right: 20%;
         text-align: center;
         margin-bottom: 30px;
         font-size: 1.2rem;
@@ -182,7 +182,7 @@
 
 /* Desktops and laptops ----------- */
 
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1028px) {
     /* Styles */
     .front-mark {
         // font-family: deftone_stylusregular;

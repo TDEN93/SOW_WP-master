@@ -14,7 +14,7 @@
 }
 body {
   height: 100%;  
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 // .body-banner:before {
@@ -135,7 +135,7 @@ body {
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 /* Styles */
   body {
-    background: none;
+    background: #333;
   }
   .video-background {
     display: block;
@@ -145,11 +145,13 @@ body {
 
 
 /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
+@media only screen  and (min-width : 1024px) {
   body {
     // background-image: url("./img/bg2.png") !important;
     // background-attachment: fixed;
     // background-size: cover;
+    background: none;
+    background-color: #333;
   }
   .video-background {
     display: block;

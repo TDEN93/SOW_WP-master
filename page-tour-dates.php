@@ -5,13 +5,13 @@
   <div class="row">
     <h2>Upcoming Dates</h2>
     <!--Table-->
-      <table class="table table-striped table-dark table-responsive-md btn-table">
+      <table class="table table-striped table-light table-responsive-md btn-table">
 
       <!--Table body-->
       <tbody>
         <?php 
           $productFields = new WP_Query(array(
-            'post_type' => 'tour_dates'
+            'post_type' => 'Tour'
           ));
 
           while($productFields->have_posts()) {

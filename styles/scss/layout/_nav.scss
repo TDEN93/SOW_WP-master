@@ -72,7 +72,7 @@
 
 .bandLogoW {
     img {
-        width: 400px;
+        width: 600px;
         height: auto;
         display: block;
         margin: 70px auto 100px auto;
@@ -89,6 +89,7 @@
 .navbar-toggler {
     padding: 0 !important;
     margin: 10px 0 0 10px;
+    color: #fff;
 }
 
 .navbar-collapse {
@@ -116,12 +117,13 @@
     }
     .bandLogoW {
         display: block;
-        position: absolute;
+        position: fixed;
         top: 5%;
+        left: 25%;
     }
     .navbar {
         position: absolute;
-        top: 0;
+        top: 5%;
         left: 0;
         padding: 0;
         text-align: center;
@@ -161,7 +163,7 @@
 
 /* Desktops and laptops ----------- */
 
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1024px) {
     /* Styles */
     .bandLogo {
         display: none !important;
@@ -170,14 +172,14 @@
     .bandLogoW {
         display: block;
         position: absolute;
-        top: 5%;
-        left: 40%;
+        top: 2%;
+        left: 35%;
         z-index: -1;
         
     }
     .navbar {
         position: absolute;
-        top: 55%;
+        top: 5%;
         left: 0;
         padding: 0;
         text-align: center;

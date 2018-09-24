@@ -1,4 +1,60 @@
+.tourCont {
+  margin-top: 100px;
+}
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+}
+  
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .tourCont {
+    margin-top: 100px;
+  }
+  tr {
+    display: flex;
+    align-content: center;
+    .tourVenue {
+      flex-grow: 1;
+      margin-left: 50px;
+    }
+    .ticketBTN {
+      margin-left: 50px;
+    }
+  }
+}
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1024px) {
+  .tourCont {
+    margin-top: 100px;
+  }
+  
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+
+  /* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  }
 
 
 @media only screen and (min-width: 992px) {
