@@ -1,7 +1,5 @@
 <?php
 
-
-
 function sow_files(){
   wp_deregister_script('jquery');
   wp_enqueue_script('jquery', '//code.jquery.com/jquery-3.3.1.min.js', NULL, '3.3.1', true);
@@ -32,11 +30,3 @@ function line_break_shortcode() {
 add_shortcode( 'br', 'line_break_shortcode' );
 
 
-
-/*
-1. Make API call to printful
-2. Get list of products
-3. Populate store template with items
-
-
-*/

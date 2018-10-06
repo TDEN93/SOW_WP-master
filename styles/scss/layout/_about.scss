@@ -14,61 +14,16 @@
 .band-image img{
   display: none;
 }
-.aboutContent  {
-  color: #000;
-  background-color: #fff;
-}
 
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
-  .aboutContent  {
+@media only screen and (min-width: 992px) {
+  .aboutContent > div  {
     text-align: justify;
     text-justify: inter-word;
-    font-size: 20px;
-    line-height: 1.7;
+    font-size: 22px;
+    line-height: 1.6;
     padding: 20px;
-    color: #000;
-    margin-top: 20px;
-    background-color: #fff;
-  }
-}
-
-@media only screen and (min-device-width : 480px) and (max-device-width : 768px) { 
-  .aboutContent  {
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 20px;
-    line-height: 1.7;
-    padding: 20px;
-    color: #000;
-    margin-top: 20px;
-    background-color: #fff;
-  }
-}
-
-/* iPads (portrait and landscape) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .contentRow {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    margin: 0 auto;
-    padding: 50px 0;
-    width: 100%;
-    letter-spacing: 1px;
-    line-height: 2;
-  }
-  .aboutContent  {
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 20px;
-    line-height: 1.7;
-    padding: 20px;
-    color: #fff;
-    margin-top: 20px;
-    background-color: #333;
+    
   }
   
   .aboutContainer {
@@ -76,7 +31,7 @@
     
   }
   .contentRow {
-    width: 95%
+    width: 70%
   }
   
   .bandContainer {
@@ -98,59 +53,6 @@
       height: auto;
     }
   }
-}
 
-@media only screen  and (min-width : 1024px) {
-  .contentRow {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    margin: 0 auto;
-    padding: 50px 0;
-    width: 100%;
-    letter-spacing: 1px;
-    line-height: 2;
-  }
-  .aboutContent  {
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 20px;
-    line-height: 1.7;
-    padding: 20px;
-    color: #fff;
-    margin-top: 20px;
-    background-color: #333;
-  }
-  
-  .aboutContainer {
-    margin: 50px auto 0 auto;
-    
-  }
-  .contentRow {
-    width: 95%
-  }
-  
-  .bandContainer {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .band-image{
-    
-    height: 350px;
-    width: 350px;
-    overflow: hidden;
-    &:first-child {
-      margin-top: 45px;
-    }
-    img {
-      display: block;
-      max-width: 100%;
-      height: auto;
-    }
-  }
 
 }
-
-
-

@@ -5,15 +5,15 @@
   <iframe width="560" height="315" src="https://www.youtube.com/embed/shmMepU64H4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div> -->
 
-<div class="modal" id="splashModal" tabindex="-1" role="dialog" aria-hidden="true">
+<!-- <div class="modal" id="splashModal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog modal-full modal-dialog-centered" role="document">
     <div class="modal-content">
-      <!-- <div class="modal-header">
+      <div class="modal-header">
                 <h5 class="modal-title">Modal</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
-            </div> -->
+            </div>
       <div class="modal-body p-4" id="result">
         <div class="row">
 
@@ -42,36 +42,18 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 
 <!-- <img class="bandPic mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/press1.jpg" alt="bandPic"> -->
 
-<!--  Home Page Content / Video -->
+<div class="video-background">
 
-<div class="contentContainer">
-    <div class="bandLogo d-block text-center">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/sowLogo_black.png" alt="sowLogo">
-    </div>
-    <div class="bandLogoW d-block text-center">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/sowLogo.png" alt="sowLogo">
-    </div>
-
-    <div class="markBanner">
-        <p><span>Listen!</span>Swiggity Swooty is out now!</p>
-    </div>
-
-    <div class="front-mark">
-        <p> <span>Watch</span> Swiggity Swooty </p>
-    </div>
-</div>
-
-  <div class="video-background">
-    <div class="video-foreground">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/shmMepU64H4?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
-    </div>
+  <div class="video-foreground">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/shmMepU64H4?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
   </div>
+</div>
 
 
 <?php get_footer(); ?>

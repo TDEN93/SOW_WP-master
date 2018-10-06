@@ -64,12 +64,9 @@
     display: block;
     width: 200px;
     height: 220px;
-    position: absolute;
-    top:35%;
-    left:0;
+    position: fixed;
     margin-top: 30px;
-    perspective: 1000px;
-    z-index: 3;
+    perspective: 1000px
   }
   
   .social li a {
