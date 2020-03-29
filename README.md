@@ -1,4 +1,4 @@
 # Shadow of Whales Wordress Website
-A wordpress theme to be used by the band [Shadow of Whales](https://www.facebook.com/shadowofwhales/)
+A wordpress theme for [Shadow of Whales](https://www.facebook.com/shadowofwhales/)
 
 ![Image of home page](screenshot.PNG)
